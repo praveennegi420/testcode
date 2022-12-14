@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background-color: #46008b;
+  flex-grow: 1.5;
+  min-width: 12em;
+  max-width: 12em;
+  text-align: left;
+  padding-left: 1.8em;
+  font-family: roboto;
+  color: rgb(230, 225, 225);
+}
+
+.nav-content img {
+  filter: invert();
+}
+
+.nav-content {
+  padding: 5px;
+}
+
+.nav-content:hover {
+  cursor: pointer; 
+  color: rgb(200, 195, 195);
+}
+
+.nav-comp:active {
+  background-color: rgb(137, 205, 226);
+  color: rgb(165, 143, 143);
+}
+
+.icon {
+  display: inline;
+}
+
+.nav-comp h4{
+  color: rgb(230, 225, 225);
+  text-decoration: none;
+}
+
+h4 {
+  display: inline;
+  padding-left: 7px;
+}
+

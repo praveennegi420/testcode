@@ -1,0 +1,95 @@
+.logo img {
+    background-color: gainsboro;
+    height: 4em;
+    width: 4em;
+    border-radius: 100%;
+    margin-top: 3em;
+  }
+  
+  .nav {
+    margin-top: 3em;
+  }
+  
+  .person {
+    height: 3em;
+    position: absolute;
+    top: 2em;
+    right: 3em;
+  }
+  
+  .msg {
+    position: fixed;
+    bottom: 4em;
+  }
+  
+  .main {
+    flex-grow: 3;
+  }
+  
+  .djwk {
+    margin-top: 10vh;
+  }
+  
+  h2,
+  h3 {
+    text-align: left;
+    margin-left: 5vw;
+  }
+  
+  .djwk img {
+    max-width: 75vw;
+    border-radius: 20px;
+  }
+  
+  .avdj {
+    margin-top: 10vh;
+  }
+  
+  .djs {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  
+  .djs > img {
+    width: 75vw;
+    height: 30vh;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .dj-info h3 {
+    margin-top: 5px;
+    margin-left: 6vw;
+    padding-top: 0px;
+    margin-bottom: 8px;
+  }
+  
+  .stars {
+    text-align: left;
+    margin-left: 6vw;
+    margin-bottom: 10px;
+  }
+  
+  .dj-info {
+    border: solid rgb(216, 229, 230);
+    position: relative;
+    border-top: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 75vw;
+    margin: auto auto;
+  }
+  
+  .play {
+    position: absolute;
+    top: 5px;
+    right: 1.5em;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .djwk {
+      margin-top: 15vh;
+    }
+  }
+  
