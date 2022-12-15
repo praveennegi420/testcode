@@ -21,10 +21,10 @@ export default function Form() {
         <div className="form shadow-2xl  shadow-stone-500 rounded">
             <h3 className="font-sans font-bold">Basic Information</h3>
             <form>
-                <label className="font-sans">User Name</label>
+                <label className="font-sans mt-3">User Name</label>
                 <input className="input" name="name" onChange={handleChange} type='text' placeholder='John Doe' />
 
-                <label className="font-sans">About</label>
+                <label className="font-sans block mt-2">About</label>
                 <input className="about" name="about" onChange={handleChange} type='textarea' placeholder='About'/>
 
                 <button onClick={onSubmit} className="submit bg-blue-500 hover:bg-blue-700 text-white mt-2 font-bold py-2 rounded ml-4">Confirm Update</button>

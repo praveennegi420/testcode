@@ -12,7 +12,7 @@ export default function NearbyDjs() {
   return (
     <div className="NearbyDjs ml-10">
       <Profile />
-      <div className='flex mt-10 below-profile mb-9'>
+      <div className='flex mt-10 below-profile mb-20'>
         <Form  />
         <Sound />
       </div>
