@@ -1,7 +1,7 @@
 export default function AvailableDjs() {
   return (
     <>
-      <div className="djs">
+      <div className='djs mt-6'>
         <img className="mx-auto" src="https://images.pexels.com/photos/1649691/pexels-photo-1649691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
         <div className="dj-info">
           <h3>Dj Khalid</h3>

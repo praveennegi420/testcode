@@ -1,3 +1,105 @@
 .BookDj, .Promo {
     height: 100vh;
 }
+
+
+.NearbyDjs{
+    min-width: 55%; margin: auto auto;
+    margin-top: 4em;
+}
+
+.profile-info{
+    text-align: left; flex-grow: 2;
+    margin-top: 2.3em;
+}
+
+.profile-info h3{
+    margin-left: 10px;
+}
+.profile-box{
+    width: 85%;
+    margin: auto auto;
+}
+
+.form{
+    max-width: 35%;
+    text-align: left;
+}
+
+.form h3{
+    margin-left: 1em;
+    padding-top: 1.5em;
+}
+
+.form form{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.input, .about{
+    width: 90%; margin: auto auto;
+    border: solid 0.05px gray;
+    border-radius: 15px;
+    padding: 3px 20px;
+    margin: 5px 2px;
+}
+
+.about {
+    padding-top: 5px;
+    padding-bottom: 80px;
+    
+    
+}
+
+.drag-drop{
+    flex-grow: 1.5;
+}
+
+.drag-drop {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  label {
+    width: 350px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+  .sound{
+    width: 45%;
+  }
+
+  .below-profile{
+    justify-content: center;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.submit{
+    margin-left: 1.8em;
+}
+  
+.all-sounds{
+    width: 80%;
+    /* height: 70%; */
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+    gap: 5px;
+}
+
+.sound button{
+    margin-top: 1.5em;
+    margin-left: 3em;
+}
+
+.genere{
+    border: solid 1px; height: 2em; padding-left: 10px;
+    padding-right: 10px; padding-top: 4px; border-radius: 20px;
+}
